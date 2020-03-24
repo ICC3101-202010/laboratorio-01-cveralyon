@@ -32,19 +32,12 @@ namespace lab001
 			Person Bob = new Person("Bob", "Kunga");
 
 			Console.WriteLine(Bob.first, Bob.last, "jugo el Ca Chi Pun con:");
-
-
-
             Console.WriteLine(Bob.lanzar());
 		}
 
-    
-
-
-
 	}
 }
-    
+
 
 
 
