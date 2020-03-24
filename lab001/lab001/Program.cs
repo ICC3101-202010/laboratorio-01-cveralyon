@@ -31,8 +31,22 @@ namespace lab001
 			// creacion de Bob Kunga
 			Person Bob = new Person("Bob", "Kunga");
 
-			Console.WriteLine(Bob.first, Bob.last, "jugo el Ca Chi Pun con:");
-            Console.WriteLine(Bob.lanzar());
+			Console.WriteLine(Bob.first+" "+Bob.last+" "+"jugo el Ca Chi Pun con:");
+			int cachi = Bob.lanzar();
+
+			if (cachi == 0)
+			{
+				Console.WriteLine("Piedra");
+			}
+			else if (cachi == 1)
+			{
+				Console.WriteLine("Papel");
+			}
+			else if (cachi == 2)
+			{
+				Console.WriteLine("Tijera");
+			}
+
 		}
 
 	}
